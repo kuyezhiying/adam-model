@@ -1,0 +1,10 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+#Templates
+.txt4
+
+#Compile
+dist # compiled version of your module will be placed here by typescript compiler
+
+#Dependency
+node_modules # local dependencies of your module will be put by npm here
