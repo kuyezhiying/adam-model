@@ -1,6 +1,6 @@
 {
   "name": "adam-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metagraph models generated from Adam node definitions.",
   "main": "dist/index",
   "typings": "dist/index",
@@ -19,7 +19,7 @@
     "url": "https://github.com/kuyezhiying/adam-model.git"
   },
   "keywords": [
-	"Metagraph",
+    "Metagraph",
     "adam",
     "model"
   ],
