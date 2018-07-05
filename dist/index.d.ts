@@ -140,6 +140,23 @@ export declare enum MeasureType {
     UsageMetric = "UsageMetric",
     Rating = "Rating",
 }
+export interface Node {
+    Identifier?: string;
+    Name?: string;
+    Ttl?: number;
+    CreatedDateTime?: string;
+    ModifiedDateTime?: string;
+    CreatedBy?: string;
+    ModifiedBy?: string;
+    CreatedByDisplayName?: string;
+    ModifiedByDisplayName?: string;
+    CreatedByUrl?: string;
+    ModifiedByUrl?: string;
+    ChildLabels?: string;
+    CompletenessScore?: string;
+    UsageScore?: string;
+    CentralityScore?: string;
+}
 export interface Container extends Node {
     OwnedByIdentities?: Identity[];
     BelongsToContainer?: Container;
